@@ -36,7 +36,7 @@ public class LauncherActivity extends Activity {
 
 	public void startXash(View view)
 	{
-		String argv = cmdArgs.getText().toString()
+		String argv = cmdArgs.getText().toString();
 		Intent intent = new Intent();
 		intent.setAction("in.celest.xash3d.START");
 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
